@@ -2,7 +2,7 @@ import './form.scss';
 let errors = [];
 
 const formIsValid = (data) => {
-    if (!data.author || !data.category || !data.content) {
+    if (!data.author || !data.category || !data.content || !data.title) {
         errors.push("Vous devez renseigner tous les champs")
     }
 
@@ -40,6 +40,7 @@ form.addEventListener('submit', async event => {
                     body: json
                 })
             const body = await response.json()
+            form.reset();
             console.log(body);
         } catch (error) {
             console.log(error);
