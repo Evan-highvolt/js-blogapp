@@ -2,19 +2,19 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/style/style.scss":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/style/style.scss ***!
-  \******************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/form/form.scss":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/form/form.scss ***!
+  \*********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  font-size: 62.5%;\n}\n\nbody {\n  font-size: 1.6rem;\n  color: #333;\n  font-family: \"Mulish\", sans-serif;\n}\n\nh1, h2, h3, h4 {\n  margin-bottom: 2rem;\n}\n\nh1 {\n  font-size: 3.5rem;\n}\n\nh2 {\n  font-size: 3rem;\n}\n\nh3 {\n  font-size: 2.5rem;\n}\n\nh4 {\n  font-size: 2rem;\n}\n\nul {\n  list-style: none;\n}\n\nimg {\n  max-width: 100%;\n}\n\na {\n  color: #333;\n  text-decoration: none;\n}\n\n.container {\n  min-height: 100vh;\n  display: grid;\n  grid: \"header\" auto \"content\" 1fr \"footer\" auto/auto;\n}\n\nheader {\n  grid-area: header;\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  padding: 20px;\n  background-color: #27ae60;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\nheader a {\n  color: white;\n}\nheader .header-brand {\n  font-size: 4rem;\n  font-weight: 700;\n}\nheader ul {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\nheader ul li .header-nav {\n  font-size: 1.8rem;\n  padding: 10px 15px;\n}\nheader ul li .active {\n  font-weight: 700;\n  border: 1px solid #2c3e50;\n  border-radius: 25px;\n}\n\n.content {\n  grid-area: content;\n  padding: 20px;\n}\n\nfooter {\n  grid-area: footer;\n  background: #333;\n  padding: 20px;\n  color: white;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n\n.title-underline {\n  padding-bottom: 2rem;\n  border-bottom: 1px solid #ecf0f1;\n}\n\n.btn {\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-weight: 700;\n  cursor: pointer;\n}\n.btn:hover {\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  transition: box-shadow 0.3s;\n}\n.btn-primary {\n  background-color: #2ecc71;\n  color: white;\n}\n.btn-secondary {\n  border: 1px solid #2ecc71;\n  background: white;\n  color: #2ecc71;\n}\n.btn-danger {\n  background-color: #e74c3c;\n  color: white;\n}\n\n.text-error {\n  color: #e74c3c;\n}", "",{"version":3,"sources":["webpack://./src/assets/style/_reset.scss","webpack://./src/assets/style/style.scss","webpack://./src/assets/style/_base.scss","webpack://./src/assets/style/_variables.scss","webpack://./src/assets/style/_classes.scss","webpack://./src/assets/style/_mixin.scss"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;ACEJ;;ACLA;EACI,gBAAA;ADQJ;;ACLA;EACI,iBAAA;EACA,WCDS;EDET,iCCCU;AFOd;;ACLA;EACI,mBAAA;ADQJ;;ACFI;EACI,iBAJQ;ADShB;;ACNI;EACI,eAJQ;ADahB;;ACVI;EACI,iBAJQ;ADiBhB;;ACdI;EACI,eAJQ;ADqBhB;;ACbA;EACI,gBAAA;ADgBJ;;ACbA;EACI,eAAA;ADgBJ;;ACbA;EACI,WC1BS;ED2BT,qBAAA;ADgBJ;;AGhDA;EACI,iBAAA;EACA,aAAA;EACA,oDACI;AHkDR;;AG5CA;EACI,iBAAA;EACA,mFDHS;ECIT,aAAA;EACA,yBDXiB;EEsBjB,aAAA;EACA,mBAFoB;EAGpB,8BDXwB;ECYxB,mBAJmD;AJyCvD;AG/CI;EACI,YAAA;AHiDR;AG9CI;EACI,eAAA;EACA,gBAAA;AHgDR;AG7CI;ECFA,aAAA;EACA,mBAFoB;EAGpB,uBAHmC;EAInC,mBAJmD;AJsDvD;AG9CY;EACI,iBAAA;EACA,kBAAA;AHgDhB;AG7CY;EACI,gBAAA;EACA,yBAAA;EACA,mBAAA;AH+ChB;;AGzCA;EACI,kBAAA;EACA,aAAA;AH4CJ;;AGzCA;EACI,iBAAA;EACA,gBDhDS;ECiDT,aAAA;EACA,YAAA;EC9BA,aAAA;EACA,mBAFoB;EAGpB,uBAHmC;EAInC,mBAJmD;AJ+EvD;;AG1CI;EACI,oBAAA;EACA,gCAAA;AH6CR;;AGzCA;EACI,YAAA;EACA,kBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;AH4CJ;AG1CI;EACI,mFDlEK;ECmEL,2BAAA;AH4CR;AGzCI;EACI,yBD9EQ;EC+ER,YAAA;AH2CR;AGxCI;EACI,yBAAA;EACA,iBAAA;EACA,cDrFQ;AF+HhB;AGvCI;EACI,yBDrFK;ECsFL,YAAA;AHyCR;;AGrCA;EACI,cD3FS;AFmIb","sourcesContent":["* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}","@import url(\"https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap\");\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  font-size: 62.5%;\n}\n\nbody {\n  font-size: 1.6rem;\n  color: #333;\n  font-family: \"Mulish\", sans-serif;\n}\n\nh1, h2, h3, h4 {\n  margin-bottom: 2rem;\n}\n\nh1 {\n  font-size: 3.5rem;\n}\n\nh2 {\n  font-size: 3rem;\n}\n\nh3 {\n  font-size: 2.5rem;\n}\n\nh4 {\n  font-size: 2rem;\n}\n\nul {\n  list-style: none;\n}\n\nimg {\n  max-width: 100%;\n}\n\na {\n  color: #333;\n  text-decoration: none;\n}\n\n.container {\n  min-height: 100vh;\n  display: grid;\n  grid: \"header\" auto \"content\" 1fr \"footer\" auto/auto;\n}\n\nheader {\n  grid-area: header;\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  padding: 20px;\n  background-color: #27ae60;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\nheader a {\n  color: white;\n}\nheader .header-brand {\n  font-size: 4rem;\n  font-weight: 700;\n}\nheader ul {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\nheader ul li .header-nav {\n  font-size: 1.8rem;\n  padding: 10px 15px;\n}\nheader ul li .active {\n  font-weight: 700;\n  border: 1px solid #2c3e50;\n  border-radius: 25px;\n}\n\n.content {\n  grid-area: content;\n  padding: 20px;\n}\n\nfooter {\n  grid-area: footer;\n  background: #333;\n  padding: 20px;\n  color: white;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n\n.title-underline {\n  padding-bottom: 2rem;\n  border-bottom: 1px solid #ecf0f1;\n}\n\n.btn {\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-weight: 700;\n  cursor: pointer;\n}\n.btn:hover {\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  transition: box-shadow 0.3s;\n}\n.btn-primary {\n  background-color: #2ecc71;\n  color: white;\n}\n.btn-secondary {\n  border: 1px solid #2ecc71;\n  background: white;\n  color: #2ecc71;\n}\n.btn-danger {\n  background-color: #e74c3c;\n  color: white;\n}\n\n.text-error {\n  color: #e74c3c;\n}",":root {\r\n    font-size: 62.5%;\r\n}\r\n\r\nbody {\r\n    font-size: 1.6rem;\r\n    color: $text-color;\r\n    font-family: $font-family;\r\n}\r\n\r\nh1, h2, h3, h4 {\r\n    margin-bottom: 2rem;\r\n}\r\n\r\n$sizes-titles : (1, 3.5rem), (2, 3rem), (3, 2.5rem), (4, 2rem);\r\n\r\n@each $title, $font-size in $sizes-titles {\r\n    h#{$title} {\r\n        font-size: $font-size;\r\n    }\r\n}\r\n\r\nul {\r\n    list-style: none;\r\n}\r\n\r\nimg {\r\n    max-width: 100%;\r\n}\r\n\r\na {\r\n    color: $text-color;\r\n    text-decoration: none;\r\n}","@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');\r\n\r\n$primary-color: #2ecc71;\r\n$primary-color-dark: #27ae60;\r\n$accent-color: #2c3e50;\r\n$text-color: #333;\r\n$text-error: #e74c3c;\r\n$divider-color: #ecf0f1;\r\n$font-family: 'Mulish', sans-serif;\r\n$box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);\r\n$screen-xs: 480px;\r\n$screen-sm: 768px;\r\n$screen-md: 979px;\r\n$screen-xl: 1200px;",".container {\r\n    min-height: 100vh;\r\n    display: grid;\r\n    grid: \r\n        \"header\" auto\r\n        \"content\" 1fr\r\n        \"footer\" auto /\r\n        auto;\r\n}\r\n\r\nheader {\r\n    grid-area: header;\r\n    box-shadow: $box-shadow;\r\n    padding: 20px;\r\n    background-color: $primary-color-dark;\r\n\r\n    @include flex($justify: space-between);\r\n\r\n    a {\r\n        color: white;\r\n    }\r\n\r\n    .header-brand {\r\n        font-size: 4rem;\r\n        font-weight: 700;\r\n    }\r\n\r\n    ul {\r\n\r\n        @include flex;\r\n\r\n        li {\r\n            .header-nav {\r\n                font-size: 1.8rem;\r\n                padding: 10px 15px;\r\n            }\r\n\r\n            .active {\r\n                font-weight: 700;\r\n                border: 1px solid $accent-color;\r\n                border-radius: 25px;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.content {\r\n    grid-area: content;\r\n    padding: 20px;\r\n}\r\n\r\nfooter {\r\n    grid-area: footer;\r\n    background: $text-color;\r\n    padding: 20px;\r\n    color: white;\r\n\r\n    @include flex;\r\n}\r\n\r\n.title {\r\n    &-underline {\r\n        padding-bottom: 2rem;\r\n        border-bottom: 1px solid $divider-color;\r\n    }\r\n}\r\n\r\n.btn {\r\n    border: none;\r\n    border-radius: 5px;\r\n    padding: 1rem 2rem;\r\n    font-weight: 700;\r\n    cursor: pointer;\r\n\r\n    &:hover {\r\n        box-shadow: $box-shadow;\r\n        transition: box-shadow .3s;\r\n    }\r\n\r\n    &-primary{\r\n        background-color: $primary-color;\r\n        color: white;\r\n    }\r\n\r\n    &-secondary {\r\n        border: 1px solid $primary-color;\r\n        background: white;\r\n        color: $primary-color;\r\n    }\r\n\r\n    &-danger {\r\n        background-color: $text-error;\r\n        color: white;\r\n    }\r\n}\r\n\r\n.text-error {\r\n    color: $text-error;\r\n}","@mixin xs {\r\n    @media (max-width: $screen-xs) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin sm {\r\n    @media (max-width: $screen-sm) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin md {\r\n    @media (min-width: $screen-sm) and (max-width: $screen-md) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin xl {\r\n    @media (min-width: $screen-xl) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin flex($direction: row, $justify: center, $align: center) {\r\n    display: flex;\r\n    flex-direction: $direction;\r\n    justify-content: $justify;\r\n    align-items: $align;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".content {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n.content form {\n  background-color: #ecf0f1;\n  width: 700px;\n  padding: 4rem;\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n}\n@media (max-width: 480px) {\n  .content form {\n    width: 100%;\n  }\n}\n@media (max-width: 768px) {\n  .content form {\n    width: 100%;\n  }\n}\n.content form h2 {\n  width: 100%;\n}\n.content form .form-group {\n  width: 100%;\n  margin-bottom: 2rem;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n}\n.content form .form-group label {\n  font-size: 1.8rem;\n  color: #2c3e50;\n  font-weight: 700;\n  margin-bottom: 1rem;\n}\n.content form .form-group input, .content form .form-group textarea {\n  width: 100%;\n  border: 1px solid #ecf0f1;\n  outline: none;\n  font-size: 1.8rem;\n  border-radius: 3px;\n}\n.content form .form-group input:focus, .content form .form-group textarea:focus {\n  border-color: #2ecc71;\n}\n.content form .form-group input {\n  padding: 5px 10px;\n}\n.content form .form-group textarea {\n  min-height: 20rem;\n  padding: 10px;\n}\n.content form .form-btn-container {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-end;\n  align-items: center;\n}\n.content form .form-btn-container .btn {\n  margin-left: 1rem;\n}", "",{"version":3,"sources":["webpack://./src/form/form.scss","webpack://./src/assets/style/_mixin.scss","webpack://./src/assets/style/_variables.scss"],"names":[],"mappings":"AAGA;ECsBI,aAAA;EACA,mBAFoB;EAGpB,uBAHmC;EAInC,mBAJmD;ADlBvD;AACI;EACI,yBEDQ;EFER,YAAA;EACA,aAAA;EACA,mFEFK;EFGL,kBAAA;ECaJ,aAAA;EACA,sBDZkB;ECalB,uBAHmC;EAInC,uBDdkC;AAGtC;AChBI;EDMA;IAUQ,WAAA;EAIV;AACF;ACfI;EDAA;IAeQ,WAAA;EAIV;AACF;AAFQ;EACI,WAAA;AAIZ;AADQ;EACI,WAAA;EACA,mBAAA;ECNR,aAAA;EACA,sBDOsB;ECNtB,uBAHmC;EAInC,uBDKsC;AAK1C;AAHY;EACI,iBAAA;EACA,cEjCD;EFkCC,gBAAA;EACA,mBAAA;AAKhB;AAFY;EACI,WAAA;EACA,yBAAA;EACA,aAAA;EACA,iBAAA;EACA,kBAAA;AAIhB;AAHgB;EACI,qBE/CJ;AFoDhB;AADY;EACI,iBAAA;AAGhB;AAAY;EACI,iBAAA;EACA,aAAA;AAEhB;AAEQ;EACI,WAAA;ECvCR,aAAA;EACA,mBAFoB;EAGpB,yBDuCiC;ECtCjC,mBAJmD;AD4CvD;AAAY;EACI,iBAAA;AAEhB","sourcesContent":["@import '../assets/style/variables';\r\n@import '../assets/style/mixin';\r\n\r\n.content {\r\n\r\n    @include flex;\r\n\r\n    form {\r\n        background-color: $divider-color;\r\n        width: 700px;\r\n        padding: 4rem;\r\n        box-shadow: $box-shadow;\r\n        border-radius: 5px;\r\n\r\n        @include flex(column, $align: flex-start);\r\n\r\n        @include xs {\r\n            width: 100%;\r\n        }\r\n\r\n        \r\n        @include sm {\r\n            width: 100%;\r\n        }\r\n\r\n        h2 {\r\n            width: 100%;\r\n        }\r\n\r\n        .form-group {\r\n            width: 100%;\r\n            margin-bottom: 2rem;\r\n\r\n            @include flex(column, $align: flex-start);\r\n\r\n            label {\r\n                font-size: 1.8rem;\r\n                color: $accent-color;\r\n                font-weight: 700;\r\n                margin-bottom: 1rem;\r\n            }\r\n\r\n            input, textarea {\r\n                width: 100%;\r\n                border: 1px solid $divider-color;\r\n                outline: none;\r\n                font-size: 1.8rem;\r\n                border-radius: 3px;\r\n                &:focus {\r\n                    border-color: $primary-color;\r\n                }\r\n            }\r\n\r\n            input {\r\n                padding: 5px 10px;\r\n            }\r\n\r\n            textarea {\r\n                min-height: 20rem;\r\n                padding: 10px;\r\n            }\r\n        }\r\n\r\n        .form-btn-container {\r\n            width: 100%;\r\n\r\n            @include flex ($justify: flex-end);\r\n\r\n            .btn {\r\n                margin-left: 1rem;\r\n            }\r\n        }\r\n    }\r\n}","@mixin xs {\r\n    @media (max-width: $screen-xs) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin sm {\r\n    @media (max-width: $screen-sm) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin md {\r\n    @media (min-width: $screen-sm) and (max-width: $screen-md) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin xl {\r\n    @media (min-width: $screen-xl) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin flex($direction: row, $justify: center, $align: center) {\r\n    display: flex;\r\n    flex-direction: $direction;\r\n    justify-content: $justify;\r\n    align-items: $align;\r\n}","@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');\r\n\r\n$primary-color: #2ecc71;\r\n$primary-color-dark: #27ae60;\r\n$accent-color: #2c3e50;\r\n$text-color: #333;\r\n$text-error: #e74c3c;\r\n$divider-color: #ecf0f1;\r\n$font-family: 'Mulish', sans-serif;\r\n$box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);\r\n$screen-xs: 480px;\r\n$screen-sm: 768px;\r\n$screen-md: 979px;\r\n$screen-xl: 1200px;"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -148,29 +148,29 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./src/assets/style/style.scss":
-/*!*************************************!*\
-  !*** ./src/assets/style/style.scss ***!
-  \*************************************/
+/***/ "./src/form/form.scss":
+/*!****************************!*\
+  !*** ./src/form/form.scss ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./style.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/style/style.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./form.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/form/form.scss");
 
       
       
@@ -192,12 +192,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -584,14 +584,63 @@ module.exports = styleTagTransform;
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!******************************************!*\
-  !*** ./src/assets/javascripts/topbar.js ***!
-  \******************************************/
+/*!**************************!*\
+  !*** ./src/form/form.js ***!
+  \**************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _style_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style/style.scss */ "./src/assets/style/style.scss");
+/* harmony import */ var _form_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./form.scss */ "./src/form/form.scss");
 
+const cancelBtn = document.querySelector(".btn-secondary");
+cancelBtn.addEventListener('click', () => {
+  location.assign("./index.html");
+});
+const formIsValid = data => {
+  let errors = [];
+  if (!data.author || !data.category || !data.content || !data.title) {
+    errors.push("Vous devez renseigner tous les champs");
+  }
+  if (errors.length) {
+    let errorHtml = '';
+    errors.forEach(error => {
+      errorHtml += `<li>${error}</li>`;
+    });
+    errorList.innerHTML = errorHtml;
+    return false;
+  } else {
+    errorList.innerHTML = '';
+    return true;
+  }
+};
+const form = document.querySelector("form");
+const errorList = document.querySelector("#errors");
+form.addEventListener('submit', async event => {
+  event.preventDefault();
+  const formData = new FormData(form);
+  const entries = formData.entries();
+  const data = Object.fromEntries(entries);
+  if (formIsValid(data)) {
+    try {
+      const json = JSON.stringify(data);
+      const response = await fetch("https://restapi.fr/api/dwwm_evan", {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: json
+      });
+      if (response.status > 299) ;
+      {
+        location.assign('./index.html');
+      }
+      ;
+      console.log(body);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+});
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=topbar.bundle.js.map
+//# sourceMappingURL=form.bundle.js.map

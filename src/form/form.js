@@ -1,7 +1,13 @@
 import './form.scss';
-let errors = [];
+const cancelBtn = document.querySelector(".btn-secondary");
+
+
+cancelBtn.addEventListener('click', () =>{
+    location.assign("./index.html")
+});
 
 const formIsValid = (data) => {
+    let errors = [];
     if (!data.author || !data.category || !data.content || !data.title) {
         errors.push("Vous devez renseigner tous les champs")
     }
@@ -38,10 +44,11 @@ form.addEventListener('submit', async event => {
                     method: "POST",
                     headers: { 'Content-Type': 'application/json'},
                     body: json
-                })
-            const body = await response.json()
-            form.reset();
-            console.log(body);
+                });
+        if (response.status > 299); {
+        location.assign('./index.html');
+        };
+        console.log(body);
         } catch (error) {
             console.log(error);
         }
