@@ -15,7 +15,8 @@ const displayArticles = (articles) => {
                     </span> </p>
                     <p>${article.content}</p>
                     <div class="article-action">
-                        <button class="btn btn-danger" data-id=${article._id}>Supprimer</button>
+                    <button class="btn btn-primary" data-id=${article._id}>Modifier</button>
+                    <button class="btn btn-danger" data-id=${article._id}>Supprimer</button>
                     </div>
     `;
         return articleNODE;
@@ -26,6 +27,7 @@ const displayArticles = (articles) => {
     articlesContainer.append(...ArticlesDOM);
 
     const deletBtns = articlesContainer.querySelectorAll(".btn-danger");
+    const editBtns = articlesContainer.querySelectorAll(".btn-primary");
     deletBtns.forEach(button => {
         button.addEventListener('click', async event => {
             event.preventDefault();
@@ -42,6 +44,15 @@ const displayArticles = (articles) => {
             }
         })
     })
+    editBtns.forEach(button => {
+        button.addEventListener('click', async event => {
+            event.preventDefault();
+            const target = event.target;
+            
+            const articleId = target.dataset.id;
+            location.assign(`./form.html?id=${articleId}`)
+        });
+    });
 };
 
 const fetchArticles = async () => {
