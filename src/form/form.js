@@ -74,7 +74,7 @@ form.addEventListener('submit', async event => {
         try {
             const json = JSON.stringify(data);
             let response; 
-             if (articleId){
+             if (articleId) {
                 response = await fetch("https://restapi.fr/api/dwwm_evan",{
                          method: "PATCH",
                          headers: { 'Content-Type': 'application/json'},
@@ -87,10 +87,9 @@ form.addEventListener('submit', async event => {
                          body: json
                      });
                     }
-        if (response.status > 299); {
+        if (response.status < 299); {
         location.assign('./index.html');
         };
-        console.log(body);
         } catch (error) {
             console.log(error);
         }

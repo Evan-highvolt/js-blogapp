@@ -669,12 +669,11 @@ form.addEventListener('submit', async event => {
           body: json
         });
       }
-      if (response.status > 299) ;
+      if (response.status < 299) ;
       {
         location.assign('./index.html');
       }
       ;
-      console.log(body);
     } catch (error) {
       console.log(error);
     }
