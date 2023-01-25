@@ -75,7 +75,7 @@ form.addEventListener('submit', async event => {
             const json = JSON.stringify(data);
             let response; 
              if (articleId) {
-                response = await fetch("https://restapi.fr/api/dwwm_evan",{
+                response = await fetch(`https://restapi.fr/api/dwwm_evan/${articleId}`,{
                          method: "PATCH",
                          headers: { 'Content-Type': 'application/json'},
                          body: json
