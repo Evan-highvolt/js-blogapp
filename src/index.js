@@ -2,9 +2,17 @@ import './index.scss';
 
 const articlesContainer = document.querySelector('.articles-container');
 const categoriesContainer = document.querySelector(".categories");
+let filter;
+let articles;
 
-const displayArticles = (articles) => {
-    const ArticlesDOM = articles.map((article) => {
+const displayArticles = () => {
+    const ArticlesDOM = articles.filter(article => {
+      if(filter) {
+        return article.category === filter;
+      } else {
+        return true;
+      }
+    }).map((article) => {
         const articleNODE = document.createElement('div');
         articleNODE.classList.add("article");
         articleNODE.innerHTML = `
@@ -55,10 +63,23 @@ const displayArticles = (articles) => {
         });
     });
 };
+
 const displayMenuCategories = (categoriesArray) => {
     const liElements = categoriesArray.map((categoryElement) => {
       const li = document.createElement("li");
       li.innerHTML = `${categoryElement[0]} ( <strong>${categoryElement[1]}</strong> )`;
+      li.addEventListener('click', event => {
+        if(filter === categoryElement[0]) {
+          liElements.forEach(li => li.classList.remove('active'));
+          filter = null;  
+        } else {
+          liElements.forEach(li => li.classList.remove('active'));
+          li.classList.add('active');
+          filter = categoryElement[0];
+          displayArticles();
+        }
+        displayArticles();
+      })
       return li;
     });
   
@@ -66,9 +87,10 @@ const displayMenuCategories = (categoriesArray) => {
     categoriesContainer.append(...liElements);
 };
 
-const creatMenuCategories =(articles) => {
+const creatMenuCategories =() => {
     const categories = articles.reduce( (acc, article) => {
-     if (acc[article.category]) {acc[article.category]++
+     if (acc[article.category]) {
+      acc[article.category]++
     } else {
         acc[article.category] = 1;
     } 
@@ -76,7 +98,9 @@ const creatMenuCategories =(articles) => {
     return acc;
     }, {} );
 
-    const categoriesArray = Object.keys(categories).map(category => [category, categories[category]]);
+    const categoriesArray = Object.keys(categories)
+                            .map(category => [category, categories[category]])
+                            .sort((a, b) => a[0].localeCompare(b[0]))
     console.log(categoriesArray);
     displayMenuCategories(categoriesArray);
 };
@@ -86,7 +110,7 @@ const fetchArticles = async () => {
     // fonction asynchrone qui recupere les donnees depuis l'API
     try {
       const response = await fetch("https://restapi.fr/api/dwwm_evan");
-      let articles = await response.json(); // <=== on change 'const' en 'let'
+      articles = await response.json(); // <=== on change 'const' en 'let'
   
       if (!(articles instanceof Array)) {
         // si 'articles' n'est pas un tableau
@@ -94,8 +118,8 @@ const fetchArticles = async () => {
       }
   
       if (articles.length) {
-        displayArticles(articles);
-        creatMenuCategories(articles);
+        displayArticles();
+        creatMenuCategories();
       } else {
         articlesContainer.innerHTML = "<p>Pas d'articles pour le moment</p>";
       }
